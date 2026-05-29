@@ -1,0 +1,14 @@
+p{
+    border-width: 5px;
+    border-color: rgb(208, 166, 243);
+    border-style: solid;
+    border-radius: 5px;
+}
+p{
+    border-width: 10px 5px 2px 20px;
+    border-color: rgb(227, 176, 243) rgb(216, 151, 161) rgb(207, 177, 216)
+}
+
+p{
+    border: 3px pink solid; 
+}
