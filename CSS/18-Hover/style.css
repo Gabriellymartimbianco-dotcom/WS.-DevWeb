@@ -1,0 +1,14 @@
+a{
+    background-color: #3f3557;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover { 
+    background-color: #8f3c68;
+    text-decoration: underline;
+
+}
