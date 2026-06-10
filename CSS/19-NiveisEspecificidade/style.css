@@ -1,0 +1,34 @@
+/*EFEITO CASCATA*/
+/*!IMPORTANTE!*/
+
+P{
+    font-size: 30PX; color:  white;
+    background-color: lightslategray !important;
+}
+.container-cascata{
+    background-color: lightblue;
+}
+
+    .container-cascata{
+        background-color: lightcoral;
+    }
+
+    .container-cascata{
+        font-size: 20px; color: aliceblue;
+        background-color: lightgreen;
+    }
+
+/*ESPECIFICIDADE*/
+#id-paragrafo{
+    background-color: lightgreen;
+}
+
+.classe-paragrafo{
+    background-color: lightcoral;
+}
+p{
+    background-color: lightblue;
+}
+h1{
+    background-color: lightcoral; color: white;
+}

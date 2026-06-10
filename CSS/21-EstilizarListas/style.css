@@ -1,0 +1,6 @@
+ul {
+    list-style-type: square;
+    /*list-style-image: url("https://cdn-icons-png.flaticon.com/512/25/25231.png");= coloca uma imagem no marcador*/
+    list-style-position: inside; /*= coloca o marcador dentro do texto*/
+    list-style: square inside; /*= é a forma abreviada de colocar o tipo e a posição do marcador*/
+}
