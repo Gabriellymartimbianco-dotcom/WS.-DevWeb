@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Seleção</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Crie um formulário para cadastro de sabores de sorvete, com um campo <select> para escolher o
+tamanho do sorvete e um <datalist> com sugestões de sabores. Estilize conforme sua escolha usando CSS.-->
+</head>
+<body>
+    <form action="">
+        <h1>Cadastro de Sabores de Sorvete</h1>
+
+        <label for="tamanho">Tamanho do Sorvete:</label>
+        <select name="tamanho" id="tamanho">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="pequeno">Pequeno</option>
+            <option value="medio">Médio</option>
+            <option value="grande">Grande</option>
+        </select>
+
+        <br><br>
+
+        <label for="sabores">Sabor do Sorvete:</label>
+        <datalist id="sabores" name="sabores" placeholder="Escolha um sabor...">
+            <option value="Chocolate"></option>
+            <option value="Baunilha"></option>
+            <option value="Morango"></option>
+            <option value="Menta"></option>
+            <option value="Caramelo"></option>
+        </datalist>
+
+        
+
+        <br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+
+    
+</body>
+</html>

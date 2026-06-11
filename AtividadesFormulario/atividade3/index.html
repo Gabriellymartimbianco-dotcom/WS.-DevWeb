@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datas e Horas</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Crie um formulário para agendar uma consulta, contendo um campo para escolher a data da consulta, um campo
+para selecionar o horário e um campo para definir o mês de pagamento. Estilize conforme sua escolha usando CSS-->
+</head>
+<body><form action="">
+    <h1>Agendamento de consulta</h1>
+    <label for="data">Data da consulta:</label>
+    <input type="date" id="data" name="data"><br><br>
+    <label for="horario">Horário da consulta:</label>
+    <select name="horario" id="horario">
+        <option value="" selected disabled>Selecione...</option>
+        <option value="08:00">08:00</option>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+
+    </select>
+    <br><br>
+    <label for="mes_pagamento">Mês de pagamento:</label>
+    <input type="month" id="mes_pagamento" name="mes_pagamento"><br><br>
+    <input type="submit" value="Agendar">
+    <br>
+    <label for="limpar">Limpa dados do formulario </label>
+    <input type="reset" value="limpar">
+    </form>
+</body>
+</html>

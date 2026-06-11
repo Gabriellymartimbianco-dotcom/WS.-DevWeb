@@ -1,0 +1,29 @@
+h1{
+    color: #493831;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+form{
+    background-color: #49a0ac;
+    width: 400px;
+    height: 500px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5 5 10px #44332b ;
+}
+body{
+    background-color:#bfe3e7 ;
+    margin: 0;
+    padding: 30px 60px;
+    
+}
+label{
+    display: block;
+    margin-top: 8px;
+    background-color: rgb(132, 223, 173);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 2px;
+    width: 400px;
+}

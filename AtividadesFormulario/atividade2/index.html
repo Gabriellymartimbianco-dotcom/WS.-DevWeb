@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number password e botoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="/" method="post">
+    <h1> Quantidade de produtos</h1>
+    <label for="numero">Quantidade de produtos:</label>
+    <input type="number" min="2" max="10" value="5"  title="Digite sua idade">
+    <br><br>
+    <label for=" telefone">Telefone para contato: </label>
+    <input type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}" placeholder="Digite seu telefone" title="Digite seu telefone no formato: 99-99999-9999">
+
+    <br><br>
+    <label>Qual seu nível de satisfação? </label>
+
+    <input type="range" id="satisfacao" name="satisfacao" min="1" max="10" value="5" oninput="atualizarValor(this.value)">
+      
+      <div class="rotulos">
+        <span>Insatisfeito</span>
+        <span>Muito Satisfeito</span>
+      </div>
+      <label for="confirmação">Realiza o envio do formulario </label>
+    <input type="submit" value="Enviar">
+    <br>
+    <label for="limpar">Limpa dados do formulario </label>
+    <input type="reset" value="limpar">
+    
+    </form>
+</body>
+</html>
