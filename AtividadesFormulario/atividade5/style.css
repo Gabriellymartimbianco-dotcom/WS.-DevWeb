@@ -11,7 +11,8 @@ form{
     border-radius: 10px;
     box-shadow: 5 5 10px #44332b ;
 }
-label{
+label
+{
     display:flex;
     margin-top: 8px;
     background-color: #ab3e5b;
@@ -21,12 +22,14 @@ label{
     width: 400px;
 }
 
-h1{
+h1
+{
     background-color: #ef746f;
     border-radius: 10px;
     margin: 0px;
 }
-select {
+select
+{
     margin-top: 8px;
     background-color: #ef746f;
     border-radius: 10px;
