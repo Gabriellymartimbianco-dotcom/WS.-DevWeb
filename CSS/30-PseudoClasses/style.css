@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*:hover-Quando o mouse passa por cima do elemento, ele ativa o estilo definido para o hover.*/
+
+button:hover{
+    border: #4a31ca;
+    background-color: #8870ff; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+    cursor: pointer; /* Cursor muda para indicar que é clicável */
+    padding: 10px; /* Aumenta o tamanho do botão */
+}
+/*:focus-Quando um elemento recebe foco, seja por meio de clique ou navegação por teclado, ele ativa o estilo definido para o focus.*/
+
+input:focus{
+    border: 2px solid #4a31ca; /* Adiciona uma borda verde ao redor do campo de entrada */
+    outline: none; /* Remove a borda padrão do navegador */
+    border-radius: 5px; /* Adiciona cantos arredondados para um visual mais suave */
+    
+}
+/*:active-Quando um elemento é ativado, ou seja, quando é clicado ou pressionado, ele ativa o estilo definido para o active.*/
+button:active{
+    background-color: #443a75; /* Cor de fundo roxa escura */
+    color: white; /* Cor do texto branca */
+    transform: scale(0.95); /* Reduz ligeiramente o tamanho do botão para dar um efeito de clique */
+}
+
+/*:visited-Quando um link foi visitado, ele ativa o estilo definido para o visited.*/
+
+a:visited{
+    color: #ca3178; /* Cor do link visitado */
+}
+/*:checked-Quando um elemento de formulário, como uma caixa de seleção ou um botão de opção, está marcado, ele ativa o estilo definido para o checked.*/
+input:checked {
+   width: 20px; /* Aumenta a largura do elemento marcado */
+    height: 20px; /* Aumenta a altura do elemento marcado */
+
+}
+/*:disabled-Quando um elemento de formulário está desativado, ele ativa o estilo definido para o disabled.*/
+input:disabled {
+   background-color: #0c0c0c;
+   color: rgb(255, 255, 255);
+   cursor: not-allowed; /* Indica que o elemento está desabilitado */
+}
+/*:first-child-Seleciona o primeiro filho de um elemento pai.*/
+ul li:first-child {
+    color: #5231ca; /* Cor do primeiro item da lista */
+}

@@ -1,0 +1,37 @@
+/*Campo das variaveis*/
+
+:root{
+    --cor-principal: #fcc8de;
+    --cor-secundaria: #fd135a;
+   /* --cor-fundo: #d64783;
+    --cor-texto: #fd135a;*/
+    --espaçamento: 10px;
+    --tamanho-fonte-texto: 24px;
+    --fonte-principal: 'Arial', sans-serif;
+    --fonte-secundaria: 'courier new', monospace;
+
+}
+
+button{
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    letter-spacing: var(--espaçamento);
+    padding: var(--espaçamento);
+    /*font-size: var(--tamanho-fonte-texto);*/
+    font-family: var(--fonte-principal);
+
+}
+p{
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+    margin: var(--espaçamento);
+    font-family: var(--fonte-secundaria);
+    font-size: var(--tamanho-fonte-texto);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

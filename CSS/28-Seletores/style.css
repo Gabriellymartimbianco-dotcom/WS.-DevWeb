@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4180ab;
+}
+
+/*Hierarquia de seletores estiliza apenas paragrafos dentro de uma section*/
+
+section p{
+    color: #8ab3cf;
+}
+
+/*Aplica estilo nos filhos diretos do seletor*/
+ul > li{
+    background-color: #bdd1de;
+}
+
+/*Aplicação do mesmo estilo para vário seletores
+*/
+h2,h3{
+    background-color: #2d96e0;
+}
+
+/*Aplica o estilo apenas em uma tag com duas classes*/
+.card.destaque{
+    color: #3c4f5c;
+}
+
+/*Estiliza o primeiro elemento logo após */
+h2 + p{
+    color: #093755;
+}
+
+/*Estiliza todos após o elemento*/
+
+h2 ~ p{
+    color: #3675a0;
+}

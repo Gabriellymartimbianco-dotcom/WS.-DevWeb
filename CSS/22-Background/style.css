@@ -1,5 +1,12 @@
-.container-background{
+/*.container-background{
     background-color: lightblue;
     background-image: url( "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
   
 }
+
+.banner{
+    padding: 100px;
+    color:white;
+    text-align: center;
+    background: linear-gradient(to right,#f5c8bf, #e0d2c5, #cad9ca, #a7e3c1, #92c7a3 url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+}*/
