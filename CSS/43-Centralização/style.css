@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Container principal (caixa/Bloco principal )*/
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10PX;
+    padding: 10px; 
+    margin: 10px;
+    background-color: rgb(113, 113, 201);
+
+}
+
+/*Caixa que fica dentro do container principak -Flex container*/
+.item{
+    background-color: cadetblue;
+    color: aliceblue;
+    padding: 10px;
+    margin:  5px;
+    text-align: center;
+}
+
